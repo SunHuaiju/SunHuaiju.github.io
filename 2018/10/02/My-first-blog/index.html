@@ -93,7 +93,7 @@
 <meta property="og:image" content="https://i.loli.net/2018/10/02/5bb391d6a6d95.png">
 <meta property="og:image" content="https://i.loli.net/2018/10/02/5bb391d6b9175.png">
 <meta property="og:image" content="https://i.loli.net/2018/10/02/5bb392d565d5e.png">
-<meta property="og:updated_time" content="2018-10-02T16:33:12.382Z">
+<meta property="og:updated_time" content="2018-10-02T17:07:17.180Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用GitHub和hexo搭建个人博客">
 <meta name="twitter:description" content="前言作为一个第一次接触这些东西的小白来说，虽然是实验室布置的任务，但这两天通过自己在网上查阅资料，在搭建这个博客的过程中也发现好多大佬其实也是在个人博客上发表一些技术贴，所以，这让我以后网上咨询又有了一个新方向，嘿嘿。 1.下载Git并配置自己的Git下载链接：[link]https://git-scm.com/download/win（一路默认即可） 然后注册GitHub账号（有账号的可以省略这">
@@ -363,9 +363,20 @@ hexo g //generetor的缩写
 hexo s //server的缩写
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">打开浏览器输入localhost:4000查看，有一个成型的页面出现，就说明初始化配置成功了。</span><br><span class="line"></span><br><span class="line">*如果想用别的主题可以自行在hexo官网上找，这里我就不做赘述了。。。（实在是因为太懒，而且太麻烦，有不明白的可以问我，我在修改主题这上面花了很长时间。。。）*</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##3. 将本地博客上传到GitHub</span><br><span class="line"></span><br><span class="line">刚才你看到的页面只存在于本地机器上，别人是看不了了，但是一旦将博客上传到GitHub服务器上，所有人都可以查看。</span><br><span class="line"></span><br><span class="line">打开刚才建立的blog文件中的_config.yml文件，在最后找到这样几行代码:</span><br></pre></td></tr></table></figure>
 <p>deploy:<br>  type: git<br>  repo: <a href="https://github.com/SunHuaiju/SunHuaiju.github.io.git" target="_blank" rel="noopener">https://github.com/SunHuaiju/SunHuaiju.github.io.git</a><br>  branch: master<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Username记得换成自己的，另外</span><br><span class="line">### 空号后面一定要有一个空格！！！</span><br><span class="line"></span><br><span class="line">再在blog根目录下运行Git Bash</span><br></pre></td></tr></table></figure></p>
-<p>npm install hexo-deployer-git –save<br>//先装个插件压压惊<br>hexo clean<br>hexo generate<br>hexo deploy  //  部署的命令</p>
-<p>//等一会就好了<br><code>`</code><br>每次部署上传的时候都要先这样在Git Bash上运行一遍…<br>至此，博客搭建完成，如果想像我一样使用购买的域名的，推荐在阿里云上面购买，必须实名认证，认证完成以后方可购买，购买时会有解析教程，我就不多说啦嘿嘿（<em>还是因为我懒，不要介意</em>）</p>
+<p>npm install hexo-deployer-git –save<br>//先装个插件压压惊</p>
+<p>hexo clean<br>hexo generate<br>hexo deploy  //  部署的命令</p>
+<p>//等一会就好了<br><code>`</code></p>
+<p>每次部署上传的时候都要先这样在Git Bash上运行一遍…<br>至此，博客搭建完成，如果想像我一样使用购买的域名的，推荐在阿里云上面购买，必须实名认证，认证完成以后方可购买，购买时会有解析教程，我就不多说啦嘿嘿（<em>还是因为我懒，不要介意</em>）</p>
 
+      
+    </div>
+    <div>
+      
+          <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
       
     </div>
     
